@@ -2,37 +2,70 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.on {
+  color: rgb(240, 244, 9);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.off {
+  color: #ccc;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 200px;
+  float: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  font-size: 35px;
+  font-weight: 100px;
+  text-decoration: underline;
+}
+.director {
+  font-size: 15px;
+}
+.year {
+  font-size: 15px;
+}
+.rated {
+  font-size: 15px;
+}
+.about {
+  font-style: italic;
+  font-weight: bold;
+}
+.card {
+  margin: 0 auto;
+}
+#textbox {
+  float: left;
+  
+}
+textarea {
+  width: 400px;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  
+}
+.card-body {
+  border: 2px solid rgb(184, 182, 182);
+  background-color: rgb(196, 195, 195);
+}
+.star-rating {
+  border: black;
+}
+.card-footer {
+  border: 2px solid rgb(184, 182, 182);
+  background-color: rgb(196, 195, 195);
 }
